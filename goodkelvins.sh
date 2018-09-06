@@ -173,7 +173,7 @@ goodkelvins.sh :
  
 #########################################
 
-variables
+Customizable variables
 
 kelvins_max=3000
 maximum (positive integer) color value
