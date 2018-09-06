@@ -28,16 +28,20 @@ minimum (positive integer) color value
 obviously, $kelvins_min must be smaller than $kelvins_max
 
 day_start=8
+
 hour value; positive (integers or reals);this is the time when the color value is set to $kelvins_max; no AM / PM; decimals are OK (eg, 8.5 equals 8h30mn); this will be converted to minutes
 
 day_end=20
+
 hour value; positive (integers or reals);this is the time when the color value is set to $kelvins_min; no AM / PM; decimals are OK (eg, 20.5 equals 20h30mn); this will be converted to minutes
 
 sunset_bias=20
+
 integers only; "delay" for the color changes within the time frame ($day_start to $day_end)
 with higher $sunset_ bias values, the change to $kelvins_min (the warmer colors) is shifted towards $day_end
 
 $kelvins_max - ($kelvins_max - $kelvins_min) * (($current_time / $day_end) ^$sunset_bias)
+
 Formula used to set the color value in kelvins with every call to goodkelvins.sh
 
 #########################################
