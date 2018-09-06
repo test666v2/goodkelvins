@@ -233,7 +233,7 @@ $current_time=520  minutes
 4000-(4000-1700)*((520/1200)^20) = 4000 kelvin (rounded)
 
 13h00mn
-$current_time=950   minutes
+$current_time=780   minutes
 4000-(4000-1700)*((780/1200)^20) = 4000 kelvin (rounded)
 
 15h50mn
