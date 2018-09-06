@@ -2,11 +2,17 @@ some explaining
 
 goodkelvins.sh :
 1 - is an hack that profits from redshift functionality and allows the user to automatically customize the display color temperature change throughout the day (and yes, redshift does it too; this is my hackish way to do it)
+
 2 - up to the user to verify that redshift works
+
 3 - bc is needed for calculations (assumes bc is installed, no  testing performed; lazy, I know)
+
 4 - for english locales; adapt as needed
+
 5 - gnuplot is optional but it is nice to have a graph
+
 6 - values in kelvins can go from 1000 to 25000 (redshift limitation)
+
 7 - why this? because it was fun
  
 #########################################
