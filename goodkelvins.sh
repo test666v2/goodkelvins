@@ -75,7 +75,7 @@ show-me ()
    echo
    echo "Press <enter> key to keep current color mood ($kelvins_set kelvins)"
    echo
-   echo "Enter the value (in kelvins, 1000-25000) to set othe color mood for the display"
+   echo "Enter the value (in kelvins, 1000-25000) to set the color mood for the display"
    echo "It's possible to get different results for diferent displays"
    echo "Values 5500 to 6500 set midday color mood"
    echo "Values 5500 to 6500 are colder (bluish)"
