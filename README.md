@@ -110,5 +110,5 @@ use the minimum value of 1 minute (cron limitation) for a smoother change)<br/>
 */2 * * * * export DISPLAY=:0 && /path/to/goodkelvins.sh<br/>
 <br/>
 save and exit<br/>
-<control><o><control><x><enter><br/>
+**control o** + **control x** & **enter**<br/>
  
