@@ -13,7 +13,7 @@ goodkelvins.sh :<br/>
 <br/>
 Customisable variables<br/>
 <br/>
-kelvins_max=3000<br/>
+kelvins_max=4000<br/>
 maximum (positive integer) color value<br/>
 <br/>
 kelvins_min=1700<br/>
