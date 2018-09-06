@@ -110,7 +110,7 @@ help ()
 
 # starts here
 
-kelvins_max=3000
+kelvins_max=4000
 
 kelvins_min=1700
 
