@@ -29,7 +29,7 @@ hour value; positive (integers or reals);this is the time when the color value i
 <br/>
 sunset_bias=20<br/>
 integers only; "delay" for the color changes within the time frame ($day_start to $day_end)<br/>
-with higher $sunset_ bias values, the change to $kelvins_min (the warmer colors) is shifted towards $day_end<br/>
+with higher $sunset_bias values, the change to $kelvins_min (the warmer colors) is shifted towards $day_end<br/>
 <br/>
 $kelvins_max - ($kelvins_max - $kelvins_min) * (($current_time / $day_end) ^$sunset_bias)<br/>
 Formula used to set the color value in kelvins with every call to goodkelvins.sh<br/>
