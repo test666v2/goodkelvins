@@ -151,7 +151,7 @@ kelvins_temp=$(grep kelvins "$temp_dir.goodkelvins.current" 2>&1 | grep -v grep 
 
 case $kelvins_temp in
    $kelvins_set) ;;
-   *) (redshift -O $kelvins_set > /dev/null;echo "$kelvins_set kelvins" > "$temp_dir.goodkelvins.current")
+   *) (redshift -O $kelvins_set -P > /dev/null;echo "$kelvins_set kelvins" > "$temp_dir.goodkelvins.current")
 esac
 
 exit 0
